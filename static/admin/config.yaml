@@ -1,0 +1,17 @@
+backend:
+  name: github
+  repo: ryanfiller/style-tile-test
+
+  dispay_url: https://pedantic-cabbages.netlify.com/
+
+media_folder: static/images/uploads
+public_folder: images/uploads
+
+collections:
+  - name: sites
+    label: Sites
+    folder: src/content/
+    create: true
+    fields:
+      - { name: title, label: Title }
+      - { name: body, label: Body, widget: markdown }
