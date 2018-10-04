@@ -1,11 +1,12 @@
 backend:
   name: github
   repo: ryanfiller/style-tile-test
+  branch: master
 
   dispay_url: https://pedantic-cabbages.netlify.com/
 
 media_folder: static/images/uploads
-public_folder: images/uploads
+public_folder: images/
 
 collections:
   - name: sites
