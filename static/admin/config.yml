@@ -5,12 +5,12 @@ backend:
 
   dispay_url: https://pedantic-cabbages.netlify.com/
 
-media_folder: static/images/uploads
+media_folder: static/images/
 public_folder: images/
 
 collections:
   - name: sites
-    label: Sites
+    label: Site Style
     folder: src/content/
     create: true
     fields:
