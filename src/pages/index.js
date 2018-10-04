@@ -1,15 +1,45 @@
 import React from 'react'
-import { Link } from 'gatsby'
+import { graphql, Link } from 'gatsby'
 
 import Layout from '../components/layout'
 
-const IndexPage = () => (
-  <Layout>
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <Link to="/page-2/">Go to page 2</Link>
-  </Layout>
-)
+export default class Index extends React.Component {
 
-export default IndexPage
+  render() {
+    
+    const data = this.props.data.allMarkdownRemark.edges
+
+    return (
+      <Layout>
+        {data.map((data, index) => {
+
+          const page = data.node
+          const frontmatter = data.node.frontmatter
+
+          return(
+            <Link to={page.fields.slug} key={index} >
+              {frontmatter.title}
+            </Link>
+          )
+        })}
+      </Layout>
+    )
+  }
+}
+
+export const query = graphql`
+  query {
+    allMarkdownRemark {
+      edges {
+        node {
+          fields {
+            slug
+          }
+          frontmatter {
+            title
+          }
+        }
+      }
+    }
+  }
+`

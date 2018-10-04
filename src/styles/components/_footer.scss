@@ -1,0 +1,33 @@
+.site-footer {
+    background-color: $color-black;
+    color: $color-white;
+    margin-top: $spacing;
+    padding: $spacing;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+    
+    a {
+        color: $color-white;
+        font-size: 1em;
+        text-decoration: none;
+        transition: $transition;
+
+        &:hover {
+            color: $color-orange;
+        }
+    }
+
+    &__rocket {
+        height: .5em;
+        svg {
+            display: block;
+            height: 100%;
+            width: auto;
+            * {
+                fill: $color-white;
+            }
+        }
+    }
+}
