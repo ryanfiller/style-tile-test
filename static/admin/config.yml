@@ -15,4 +15,34 @@ collections:
     create: true
     fields:
       - { name: title, label: Title }
-      - { name: body, label: Body, widget: markdown }
+      - { name: url, label: Beta Link }
+      - { name: favicon, label: Favicon, widget: image }
+      - { name: notes, label: Notes widget: "markdown"}
+      - { name: logo, label: Logo, widget: image }
+      - { name: font, label: Fonts }
+      - { name: paragraph-styles, label: Parangraph Styles }
+      - { name: links-styles, label: Links Styles }
+      - { name: list-styles, label: List Styles }
+      - { name: block-quote-styles, label: Block Quote Styles }
+      - { name: header-styles, label: Header Styles }
+
+# black / white
+
+# colors (addable)
+#     - color
+#     - color
+#     - color
+
+# grays (addable)
+#     - gray
+#     - gray
+
+# button
+#     - button
+#     - hover
+
+# social icons (choosable)
+
+# forms
+
+# additional svgs
