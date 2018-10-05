@@ -26,11 +26,11 @@ collections:
       - { name: block-quote-styles, label: Block Quote Styles }
       - { name: header-styles, label: Header Styles }
       - label: Colors
-          name: colors
-          widget: list
-          field: {
-              name: color, label: Color
-            }
+        name: colors
+        widget: list
+        field: {
+            name: color, label: Color
+          }
 
 
 
