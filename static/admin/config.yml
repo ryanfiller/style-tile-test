@@ -23,7 +23,7 @@ collections:
         widget: list
         fields:
           - { name: color-name, label: Name }
-          - { name: color, label: Color, widget: color }
+          - { name: hex_value, label: Color, widget: color }
         required: false
       - { name: font, label: Fonts, required: false }
       - { name: paragraph-styles, label: Parangraph Styles, required: false }

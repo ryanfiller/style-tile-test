@@ -1,0 +1,38 @@
+.colors {
+    display: flex;
+    font-size: 1.25rem;
+
+    &__block {
+        flex: 1;
+        position: relative;
+
+        &:after {
+            content: '';
+            display: block;
+            height: 0;
+            padding-top: 100%;
+            float: left;
+        }
+    }
+    
+    &__text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+    }
+
+    &__name {
+        font-size: 1em;
+        color: $color-white;
+        display: block;
+        text-align: center;
+    }
+
+    &__hex {
+        font-size: .75em;
+        color: $color-white;
+        display: block;
+        text-align: center;
+    }
+}
