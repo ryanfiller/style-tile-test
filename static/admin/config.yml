@@ -14,23 +14,24 @@ collections:
     folder: src/content/
     create: true
     fields:
-      - { name: title, label: Title }
-      - { name: url, label: Beta Link }
-      - { name: favicon, label: Favicon, widget: image }
-      - { name: notes, label: Notes, widget: "markdown"}
-      - { name: logo, label: Logo, widget: image }
+      - { name: title, label: Title, required: false }
+      - { name: url, label: Beta Link, required: false }
+      - { name: favicon, label: Favicon, widget: image, required: false }
+      - { name: logo, label: Logo, widget: image, required: false }
       - label: Colors
         name: colors
         widget: list
-        field: {
-            name: color, label: Color, widget: color
-          }
-      - { name: font, label: Fonts }
-      - { name: paragraph-styles, label: Parangraph Styles }
-      - { name: links-styles, label: Links Styles }
-      - { name: list-styles, label: List Styles }
-      - { name: block-quote-styles, label: Block Quote Styles }
-      - { name: header-styles, label: Header Styles }
+        fields:
+          - { name: color-name, label: Name }
+          - { name: color, label: Color, widget: color }
+        required: false
+      - { name: font, label: Fonts, required: false }
+      - { name: paragraph-styles, label: Parangraph Styles, required: false }
+      - { name: links-styles, label: Links Styles, required: false }
+      - { name: list-styles, label: List Styles, required: false }
+      - { name: block-quote-styles, label: Block Quote Styles, required: false }
+      - { name: header-styles, label: Header Styles, required: false }
+      - { name: notes, label: Notes, widget: markdown, required: false}
 
 
 

@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Default Starter',
+    title: 'Sites Styles',
   },
   plugins: [
     `gatsby-plugin-sass`,
