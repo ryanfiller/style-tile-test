@@ -17,7 +17,7 @@ collections:
       - { name: title, label: Title }
       - { name: url, label: Beta Link }
       - { name: favicon, label: Favicon, widget: image }
-      - { name: notes, label: Notes widget: "markdown"}
+      - { name: notes, label: Notes, widget: "markdown"}
       - { name: logo, label: Logo, widget: image }
       - { name: font, label: Fonts }
       - { name: paragraph-styles, label: Parangraph Styles }
@@ -25,6 +25,16 @@ collections:
       - { name: list-styles, label: List Styles }
       - { name: block-quote-styles, label: Block Quote Styles }
       - { name: header-styles, label: Header Styles }
+      - label: Colors
+          name: colors
+          widget: list
+          field: {
+              name: color, label: Color
+            }
+
+
+
+      # - { name: codepens, label: Code Pens }
 
 # black / white
 
