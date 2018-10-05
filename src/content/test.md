@@ -1,11 +1,11 @@
 ---
-title: test
+title: Test site
+url: test.rocketfuelcs.com
+favicon: /images/favicon.png
+logo: /images/rocket-logo.svg
 colors:
-  - color: '#ec0c0c'
-    color-name: really-red
-  - color: '#0018ff'
-    color-name: super-blue
-  - color: '#4aff00'
-    color-name: greeeen
+  - color-name: really-red
+  - color-name: super-blue
+  - color-name: greeeen
 ---
 
