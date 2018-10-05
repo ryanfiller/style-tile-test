@@ -5,7 +5,7 @@ colors:
     color-name: really-red
   - hex_value: '#0018ff'
     color-name: super-blue
-  - color: '#4aff00'
+  - hex_value: '#4aff00'
     color-name: greeeen
 ---
 

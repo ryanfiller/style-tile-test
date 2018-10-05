@@ -14,7 +14,7 @@ const Colors = (props) => {
                     <div className="colors__block" style={backgroundColor} key={index}>
                         <div className="colors__text">
                             <span className="colors__name">
-                                ${color.color_name}
+                                {color.color_name}
                             </span>
                             <span className="colors__hex">
                                 {color.hex_value}
@@ -27,8 +27,8 @@ const Colors = (props) => {
         <pre className="codeblock">
             {props.colors.map((color, index)=> {
                 return(`
-                    $${color.color_name}: ${color.hex_value};
-                    `)        
+                    $color--${color.color_name}: ${color.hex_value};
+                `)        
             })}
         </pre>
     </React.Fragment>
