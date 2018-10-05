@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "author": "Ryan Filler <ryanfiller89@gmail.com>",
   "dependencies": {
+    "@pake/react-color": "^3.0.0",
     "gatsby": "^2.0.0",
     "gatsby-plugin-manifest": "^2.0.2",
     "gatsby-plugin-netlify": "^2.0.1",
@@ -14,6 +15,7 @@
     "gatsby-source-filesystem": "^2.0.1",
     "gatsby-transformer-remark": "^2.1.6",
     "netlify-cms": "^2.1.2",
+    "netlify-cms-widget-color": "^3.0.1",
     "node-sass": "^4.9.3",
     "react": "^16.5.1",
     "react-dom": "^16.5.1",

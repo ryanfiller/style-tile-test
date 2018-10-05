@@ -19,18 +19,18 @@ collections:
       - { name: favicon, label: Favicon, widget: image }
       - { name: notes, label: Notes, widget: "markdown"}
       - { name: logo, label: Logo, widget: image }
+      - label: Colors
+        name: colors
+        widget: list
+        field: {
+            name: color, label: Color, widget: color
+          }
       - { name: font, label: Fonts }
       - { name: paragraph-styles, label: Parangraph Styles }
       - { name: links-styles, label: Links Styles }
       - { name: list-styles, label: List Styles }
       - { name: block-quote-styles, label: Block Quote Styles }
       - { name: header-styles, label: Header Styles }
-      - label: Colors
-        name: colors
-        widget: list
-        field: {
-            name: color, label: Color
-          }
 
 
 
