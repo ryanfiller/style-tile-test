@@ -1,40 +1,9 @@
 ---
 title: test
-
+colors:
+  - color: '#ec0c0c'
+    color-name: really-red
+  - color: '#0018ff'
+    color-name: super-blue
 ---
 
-title
-url
-logo
-    - logo versions
-favicon
-
-fonts (addable)
-    - font 1
-    - font 2
-
-paragraph styles (normal, bold, italic, bold/italic)
-link styles
-ol / ul styles
-blockquote styles
-
-headers (addable)
-
-black / white
-
-colors (addable)
-    - color
-    - color
-    - color
-
-grays (addable)
-    - gray
-    - gray
-
-button
-    - button
-    - hover
-
-social icons (choosable)
-
-forms
