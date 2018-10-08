@@ -6,11 +6,16 @@
 }
 
 .favicon {
-    margin-right: 1rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
     position: relative;
 
     &:after {
-        content: 'test';
+        color: $color-black;
+        position: absolute;
+        left: 0;
+        bottom: -1rem;
+        width: 100px;
     }
 
     &:nth-child(1) {
