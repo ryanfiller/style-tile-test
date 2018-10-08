@@ -1,16 +1,20 @@
 import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
+import SiteInfo from "../components/site-info"
 import Colors from "../components/colors"
 
 export default ({ data }) => {
-  const post = data.markdownRemark
+  const post = data.markdownRemark.frontmatter
   return (
     <Layout>
       <React.Fragment>
-        {/* <h1>{post.frontmatter.title}</h1> */}
-        {/* <div dangerouslySetInnerHTML={{ __html: post.html }} /> */}
-        <Colors colors={post.frontmatter.colors} />
+        <SiteInfo
+          title={post.title}
+          url={post.url}
+          favicon={post.favicon}
+        />
+        <Colors colors={post.colors} />
       </React.Fragment>
     </Layout>
   )
@@ -21,7 +25,10 @@ export const query = graphql`
     markdownRemark(fields: { slug: { eq: $slug } }) {
       html
       frontmatter {
+        favicon
         title
+        url
+        logo
         colors {
           hex_value
           color_name

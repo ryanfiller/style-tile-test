@@ -1,5 +1,8 @@
 ---
-title: test
+title: Test site
+url: test.rocketfuelcs.com
+favicon: /images/favicon.png
+logo: /images/rocket-logo.svg
 colors:
   - hex_value: '#ec0c0c'
     color-name: really-red

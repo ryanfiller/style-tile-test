@@ -1,0 +1,162 @@
+.favicon-wrapper {
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+    overflow-x: scroll;
+}
+
+.favicon {
+    margin-right: 1rem;
+    position: relative;
+
+    &:after {
+        content: 'test';
+    }
+
+    &:nth-child(1) {
+        img {
+            width: 16px;
+            height: 16px;   
+        }
+
+        &:after {
+            content: '16 x 16';
+        }
+    }
+
+    &:nth-child(2) {
+        img {
+            width: 32px;
+            height: 32px;   
+        }
+
+        &:after {
+            content: '32 x 32';
+        }
+    }
+
+    &:nth-child(3) {
+        img {
+            width: 70px;
+            height: 70px;   
+        }
+
+        &:after {
+            content: '70 x 70';
+        }
+    }
+
+    &:nth-child(4) {
+        img {
+            width: 96px;
+            height: 96px;   
+        }
+
+        &:after {
+            content: '96 x 96';
+        }
+    }
+
+    &:nth-child(5) {
+        img {
+            width: 120px;
+            height: 120px;   
+        }
+
+        &:after {
+            content: '120 x 120';
+        }
+    }
+
+    &:nth-child(6) {
+        img {
+            width: 128px;
+            height: 128px;   
+        }
+
+        &:after {
+            content: '128 x 128';
+        }
+    }
+
+    &:nth-child(7) {
+        img {
+            width: 150px;
+            height: 150px;   
+        }
+
+        &:after {
+            content: '150 x 150';
+        }
+    }
+
+    &:nth-child(8) {
+        img {
+            width: 167px;
+            height: 167px;   
+        }
+
+        &:after {
+            content: '167 x 167';
+        }
+    }
+
+    &:nth-child(9) {
+        img {
+            width: 180px;
+            height: 180px;   
+        }
+
+        &:after {
+            content: '180 x 180';
+        }
+    }
+
+    &:nth-child(10) {
+        img {
+            width: 196px;
+            height: 196px;   
+        }
+
+        &:after {
+            content: '196 x 196';
+        }
+    }
+
+    &:nth-child(11) {
+        img {
+            width: 228px;
+            height: 228px;   
+        }
+
+        &:after {
+            content: '228 x 228';
+        }
+    }
+
+    &:nth-child(12) {
+        img {
+            width: 270px;
+            height: 270px;   
+        }
+
+        &:after {
+            content: '270 x 270';
+        }
+    }
+
+    &:nth-child(13) {
+        img {
+            width: 310px;
+            height: 310px;   
+        }
+
+        &:after {
+            content: '310 x 310';
+        }
+    }
+
+    &:last-child {
+        margin-right: 0;
+    }
+}
