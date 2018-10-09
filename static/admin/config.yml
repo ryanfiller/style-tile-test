@@ -16,7 +16,7 @@ collections:
     fields:
       - { name: title, label: Title, required: false }
       - { name: url, label: Beta Link, required: false }
-      - { name: site-number, label: Site Number, required: false }
+      - { name: site_number, label: Site Number, required: false }
       - { name: favicon, label: Favicon, widget: image, required: false }
       - { name: logo, label: Logo, widget: image, required: false }
       - label: Colors

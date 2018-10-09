@@ -1,0 +1,14 @@
+@mixin font-size($phone-size: 1em, $tablet-size: 1.25em, $desktop-size: 1.5em) {
+
+    font-size: $phone-size;
+    line-height: 1.25em;
+
+    @include phone-break {
+        font-size: $tablet-size;
+      }
+  
+    @include tablet-break {
+        font-size: $desktop-size;
+    }
+  
+}

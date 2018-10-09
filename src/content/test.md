@@ -1,6 +1,7 @@
 ---
 title: Test site
 url: test.rocketfuelcs.com
+site_number: 123
 favicon: /images/favicon.png
 logo: /images/rocket-logo.svg
 colors:
