@@ -7,7 +7,7 @@ logos:
   - background_color: '#ffffff'
     logo: /images/crump-logo-color-solid.svg
   - background_color: '#ffffff'
-    logo: /images/crump-white-color.svg
+    logo: /images/crump-logo-color.svg
   - background_color: '#000000'
     logo: /images/crump-white-logo.svg
 colors:

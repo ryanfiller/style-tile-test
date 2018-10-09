@@ -1,0 +1,12 @@
+.logos-wrapper {
+    display: flex;
+    background-color: $color-gray-light;
+
+    .logo-box {
+        flex: 1;
+    }
+}
+
+.logo-box {
+    padding: 1rem;
+}

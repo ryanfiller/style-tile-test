@@ -3,7 +3,9 @@ import React from 'react'
 const Favicons = ({ icon }) => {
     return (
         <React.Fragment>
-            Favicons
+            <header className="section-title">
+                Favicons
+            </header>
             <div className="favicon-wrapper">
                 <div className="favicon">
                     <img src={icon} alt='favicon' />

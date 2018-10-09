@@ -13,6 +13,7 @@ export default ({ data }) => {
           title={post.title}
           url={post.url}
           siteNumber={post.site_number}
+          logos={post.logos}
           favicon={post.favicon}
         />
         <Colors colors={post.colors} />
@@ -30,7 +31,10 @@ export const query = graphql`
         title
         url
         site_number
-        logo
+        logos {
+          background_color
+          logo
+        }
         colors {
           hex_value
           color_name
