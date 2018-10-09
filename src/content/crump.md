@@ -4,10 +4,12 @@ url: crump.rocketfuelcs.com
 site_number: 613
 favicon: /images/crump-favicon.png
 logos:
-  - background_color: '#ff0000'
-    logo: /images/rocket-logo.svg
+  - background_color: '#ffffff'
+    logo: /images/crump-logo-color-solid.svg
+  - background_color: '#ffffff'
+    logo: /images/crump-white-color.svg
   - background_color: '#000000'
-    logo: /images/rocket-logo-white.svg
+    logo: /images/crump-white-logo.svg
 colors:
   - color-name: really-red
     hex_value: '#ec0c0c'
