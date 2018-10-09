@@ -1,8 +1,8 @@
 ---
-title: Test site
-url: test.rocketfuelcs.com
-site_number: 123
-favicon: /images/favicon.png
+title: Crump Firm Architects
+url: crump.rocketfuelcs.com
+site_number: 613
+favicon: /images/crump-favicon.png
 logo: /images/rocket-logo.svg
 colors:
   - hex_value: '#ec0c0c'
