@@ -18,14 +18,21 @@ collections:
       - { name: url, label: Beta Link, required: false }
       - { name: site_number, label: Site Number, required: false }
       - { name: favicon, label: Favicon, widget: image, required: false }
-      - { name: logo, label: Logo, widget: image, required: false }
+      
+      - label: Logos
+        name: logos
+        widget: list
+        fields:
+          - { name: logo, label: Logo, widget: image }
+          - { name: background_color, label: Background Color, widget: color, required: false }
+      
       - label: Colors
         name: colors
         widget: list
         fields:
           - { name: color-name, label: Name }
           - { name: hex_value, label: Color, widget: color }
-        required: false
+      
       - { name: font, label: Fonts, required: false }
       - { name: paragraph-styles, label: Parangraph Styles, required: false }
       - { name: links-styles, label: Links Styles, required: false }
